@@ -33,7 +33,7 @@
 | **RE / forensics** | GHIDRA · IDA · Volatility · Wireshark |
 | **Code review** | semgrep · CodeQL · manual triage |
 | **Languages** | Python · C · Bash · PowerShell · SQL · JavaScript · x86 / x64 assembly |
-| **Frameworks** | OWASP Top 10 / ASVS · MITRE ATT&CK · NIST CSF · CVSS v3.1 · PTES |
+| **Frameworks** | OWASP Top 10 / ASVS · MITRE ATT&CK · NIST CSF · CVSS v4 · PTES |
 
 ### Teaching & community
 
@@ -51,7 +51,6 @@
 | HackTheBox | [app.hackthebox.com/users/210010](https://app.hackthebox.com/users/210010) |
 | YouTube | [youtube.com/@dhiral2908](https://youtube.com/@dhiral2908) |
 | Linktree | [linktr.ee/dhiral](https://linktr.ee/dhiral) |
-| Email | dhiralvyas@gmail.com |
 
 ---
 
