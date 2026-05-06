@@ -7,12 +7,15 @@
 [![BSCP](https://img.shields.io/badge/PortSwigger-BSCP-FF6633?style=flat-square)](https://portswigger.net/web-security/e/c/72cddeb515af9e2c)
 [![MCRTA](https://img.shields.io/badge/CyberWarFare%20Labs-MCRTA-1F6FEB?style=flat-square)](https://labs.cyberwarfare.live/credential/achievement/6671bf1442b8b5382b3ef8cf)
 [![CVE-2026-34519](https://img.shields.io/badge/CVE-2026--34519-8B0000?style=flat-square&logo=cve&logoColor=white)](https://github.com/advisories/GHSA-mwh4-6h8g-pg8w)
+[![CVE-2026-44340](https://img.shields.io/badge/CVE-2026--44340-8B0000?style=flat-square&logo=cve&logoColor=white)](https://github.com/advisories/GHSA-9q28-ghcr-c4x3)
 
 > **HackTheBox: Guru** — Top 50 Global Hall of Fame · **1st of 50+** in Praetorian's company-wide CTF
 > **M.Eng. Cybersecurity**, University of Maryland · **B.Eng. ICT**, Gujarat Technological University
 
 ### Selected work
 
+- **[CVE-2026-44340](https://github.com/advisories/GHSA-9q28-ghcr-c4x3)** — Symlink-extraction path traversal in [PraisonAI](https://github.com/MervinPraison/PraisonAI) (High, CWE-22 + CWE-59). Bypassed `_safe_extractall`'s member-name check via an unvalidated `linkname`, achieving arbitrary file write across `recipe pull`, `recipe publish`, and `recipe unpack`. Coordinated disclosure; fixed in v4.6.37. Surfaced by my [`claude-cve-research`](https://github.com/DHIRAL2908/claude-cve-research) automation pipeline.
+- **[claude-cve-research](https://github.com/DHIRAL2908/claude-cve-research)** — Automation pipeline that mines the GitHub `/advisories` API, enriches and triages high-CVE-volume OSS targets, and runs semgrep / bandit / pip-audit pivots with per-target triage notes. Surfaced CVE-2026-44340 in PraisonAI on its first end-to-end run.
 - **[CVE-2026-34519](https://github.com/advisories/GHSA-mwh4-6h8g-pg8w)** — HTTP response splitting in [AIOHTTP](https://github.com/aio-libs/aiohttp) (CVSS 5.3, CWE-113). Coordinated disclosure with maintainers; fixed in v3.13.4. Public advisory and PoC.
 - **["Gone Phishing, Got a Token: When Separate Flaws Combine"](https://www.praetorian.com/blog/gone-phishing-got-a-token-when-separate-flaws-combine)** — Praetorian blog post on chaining two low-severity web findings into infrastructure compromise.
 - **Pre-auth SQLi → authenticated RCE** — gray-box source review of a 100K+ LOC web platform. Chained an injection primitive into full DB read/write and briefed engineering and execs on the chain and remediation roadmap.
