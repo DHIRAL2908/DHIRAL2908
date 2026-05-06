@@ -1,6 +1,6 @@
 # Dhiral Vyas
 
-**Offensive Security Engineer** — red team, vulnerability research, and source-code review across web, API, cloud (AWS / Azure / GCP), IoT & firmware, and Active Directory.
+**Security Engineer** — red team, vulnerability research, and source-code review across web, API, cloud (AWS / Azure / GCP), IoT & firmware, and Active Directory.
 
 [![OSCP](https://img.shields.io/badge/OffSec-OSCP-EE0000?style=flat-square)](https://credentials.offsec.com/1584ba7d-3ab8-43ac-a99f-39f85f4426b2)
 [![OSWE](https://img.shields.io/badge/OffSec-OSWE-EE0000?style=flat-square)](https://credentials.offsec.com/1c67d6a2-8669-4315-b5d3-e14a2f95f351)
