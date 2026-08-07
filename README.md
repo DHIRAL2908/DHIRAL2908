@@ -9,7 +9,7 @@
 [![CVE-2026-34519](https://img.shields.io/badge/CVE-2026--34519-8B0000?style=flat-square&logo=cve&logoColor=white)](https://github.com/advisories/GHSA-mwh4-6h8g-pg8w)
 [![CVE-2026-44340](https://img.shields.io/badge/CVE-2026--44340-8B0000?style=flat-square&logo=cve&logoColor=white)](https://github.com/advisories/GHSA-9q28-ghcr-c4x3)
 
-> **HackTheBox: Guru**, Top 50 Global Hall of Fame · **1st of 50+** in Praetorian's company-wide CTF
+> **HackTheBox: Guru**, Top 50 Global Hall of Fame · **1st of 50+** in Praetorian's company-wide CTF<br>
 > **M.Eng. Cybersecurity**, University of Maryland · **B.Eng. ICT**, Gujarat Technological University
 
 ### Selected work
